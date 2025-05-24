@@ -1,0 +1,57 @@
+ship "Warhawk"
+	sprite "ship/Warhawk"
+		delay 2
+	thumbnail "thumbnail/Warhawk"
+	attributes
+		category "Heavy Warship"
+		"cost" 10400000
+		"shields" 12600
+		"hull" 4800
+		"required crew" 45
+		"bunks" 89
+		"mass" 1388
+		"drag" 13
+		"heat dissipation" .36
+		"fuel capacity" 600
+		"cargo space" 120
+		"outfit space" 605
+		"weapon capacity" 245
+		"engine capacity" 145
+		weapon
+			"blast radius" 180
+			"shield damage" 1800
+			"hull damage" 900
+			"hit force" 2700
+	outfits
+		"Plasma Cannon" 2
+		"Heavy Rocket Launcher" 2
+		"Heavy Rocket" 60
+		"Heavy Rocket Rack" 2
+		"Heavy Anti-Missile Turret"
+		"Quad Blaster Turret" 2
+
+		"Breeder Reactor"
+		"D94-YV Shield Generator"
+		Hyperdrive
+		"LP144a Battery Pack"
+		"Large Radar Jammer"
+		"Liquid Helium Cooler"
+		"Impala Plasma Thruster"
+		"Orca Plasma Steering"
+	engine -72 71
+	engine 72 71
+	engine -31 85
+	engine 31 85
+	gun -33 -67 "Plasma Cannon"
+	gun 33 -67 "Plasma Cannon"
+	gun -72.5 11 "Heavy Rocket Launcher"
+	gun 72.5 11 "Heavy Rocket Launcher"
+	turret 0 0 "Heavy Anti-Missile Turret"
+	turret -35 28 "Quad Blaster Turret"
+	turret 35 28 "Quad Blaster Turret"
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "The Voidhaven Shipyards Warhawk was designed as a jack-of-all-trades, master of none; but often times better than a master of one. It does not excel in any single category when compared to other heavy warships, but has become popular as a generalist vessel with a great deal of modularity and flexibility."

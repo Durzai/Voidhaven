@@ -1,0 +1,37 @@
+mission "Voidhaven Pirate Shipyards"
+	non-blocking
+	landing
+	invisible
+	on offer
+		event "voidhaven pirate shipyards"
+		fail
+
+event "midnight pirate planet outfitters"
+	planet Thule
+		add shipyard "Voidhaven Ships"
+	planet "Smuggler's Den"
+		add shipyard "Voidhaven Ships"
+	planet "Buccaneer Bay"
+		add shipyard "Voidhaven Ships"
+	planet Covert
+		add shipyard "Voidhaven Ships"
+	planet Greenrock
+		add shipyard "Voidhaven Ships"
+	planet Haven
+		add shipyard "Voidhaven Ships"
+	planet Stormhold
+		add shipyard "Voidhaven Ships"
+	planet "New Tortuga"
+		add shipyard "Voidhaven Ships"
+	planet Mordente-Bridi
+		add shipyard "Voidhaven Ships"
+	planet Albatross
+		add shipyard "Voidhaven Ships"
+	planet Bloodsea
+		add shipyard "Voidhaven Ships"
+	planet "Deadman's Cove"
+		add shipyard "Voidhaven Ships"
+	planet Gagarin
+		add shipyard "Voidhaven Ships"
+	planet Trinket
+		add shipyard "Voidhaven Ships"
