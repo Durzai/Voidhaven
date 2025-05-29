@@ -1,2 +1,3 @@
 shipyard "Voidhaven Ships"
 	"Warhawk"
+	"Star Titan"
