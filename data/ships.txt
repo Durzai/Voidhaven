@@ -1,7 +1,7 @@
 ship "Warhawk"
 	sprite "ship/Warhawk"
 		delay 2
-	thumbnail "thumbnail/Warhawk"
+	thumbnail "thumbnail/warhawk-thumbnail"
 	attributes
 		category "Heavy Warship"
 		"cost" 10400000
@@ -55,3 +55,81 @@ ship "Warhawk"
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
 	description "The Voidhaven Shipyards Warhawk was designed as a jack-of-all-trades, master of none; but often times better than a master of one. It does not excel in any single category when compared to other heavy warships, but has become popular as a generalist vessel with a great deal of modularity and flexibility."
+
+ship "Star Titan"
+	sprite "ship/Star Titan"
+		delay 2
+	thumbnail "thumbnail/startitan-thumbnail"
+	attributes
+		category "Space Liner"
+		"cost" 7350000
+		"shields" 7300
+		"hull" 4100
+		"required crew" 51
+		"bunks" 196
+		"mass" 975
+		"drag" 12.9
+		"heat dissipation" .41
+		"fuel capacity" 900
+		"cargo space" 105
+		"outfit space" 590
+		"weapon capacity" 175
+		"engine capacity" 175
+		weapon
+			"blast radius" 101
+			"shield damage" 1110
+			"hull damage" 555
+			"hit force" 1665
+	outfits
+		"Plasma Cannon" 1
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 90
+		"Meteor Missile Box" 2
+		"Heavy Anti-Missile Turret"
+		"Quad Blaster Turret" 2
+
+		"Brig"
+		"Fission Reactor"
+		"D94-YV Shield Generator"
+		"LP144a Battery Pack"
+		"Small Radar Jammer" 4
+		"Liquid Nitrogen Cooler"
+
+		"Orca Plasma Thruster"
+		"Orca Plasma Steering"
+		"Capybara Reverse Thruster" 2
+
+		"Scram Drive"
+
+	"steering engine" -34 41
+		zoom 0.5
+		left
+		angle 0
+	"steering engine" 34 41
+		zoom 0.5
+		right
+		angle 0
+	engine -17.5 161.5
+	engine 17.5 161.5
+
+	gun -1.5 -158.5 "Plasma Cannon"
+	gun -25.5 -122.5 "Meteor Missile Launcher"
+	gun 22.5 -122.5 "Meteor Missile Launcher"
+
+	turret -1.5 66 "Heavy Anti-Missile Turret"
+	turret -22.5 -46 "Quad Blaster Turret"
+	turret 19.5 -46 "Quad Blaster Turret"
+
+	bay "Drone" -35 3.5
+		"launch effect" "human internal"
+	bay "Drone" 31.5 3.5
+		"launch effect" "human internal"
+
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+
+	description "The Voidhaven Shipyards Star Titan was born of humanity's venerable star liners, unfortunate ships captured by pirates; left derelict by battle or bad luck. Voidhaven has breathed new life into this dying breed of starships, hybridizing the vast number of scrapped star liner hulls and selling a true titan of modern star liner industry, outclassed only by the jealously guarded city-ships of The Deep."
+	description "The Star Titan engineers have been praised for their innovative restructuring of the forward engine nacelles, hollowing a majority of the space out for two drone bays; and keeping just enough internal space for a set of small maneuvering thrusters to aid in the smooth turning of the elongated hull.
