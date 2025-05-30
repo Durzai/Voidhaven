@@ -1,0 +1,78 @@
+ship "Colossus"
+	sprite "ship/colossus"
+		delay 2
+	thumbnail "thumbnail/colossus-thumbnail"
+	attributes
+		category "Heavy Freighter"
+		"cost" 16200000
+		"shields" 11400
+		"hull" 9450
+		"required crew" 18
+		"bunks" 45
+		"mass" 1680
+		"drag" 21.9
+		"heat dissipation" 0.39
+		"fuel capacity" 900
+		"cargo space" 735
+		"outfit space" 695
+		"weapon capacity" 295
+		"engine capacity" 145
+		weapon
+			"blast radius" 210
+			"shield damage" 2100
+			"hull damage" 950
+			"hit force" 3150
+	outfits
+		# Ammunition
+		"Meteor Missile Box" 4
+		"Meteor Missile" 180
+		# Engines
+		"Capybara Reverse Thruster" 2
+		"Impala Plasma Thruster"
+		"Orca Plasma Steering"
+		# Guns
+		
+		# Power
+		"Breeder Reactor"
+		"LP144a Battery Pack"
+		# Secondary Weapons
+		"Meteor Missile Launcher" 4
+		# Systems
+		"D94-YV Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Scram Drive"
+		"Small Radar Jammer" 4
+		# Turrets
+		"Blaster Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		"Quad Blaster Turret" 4
+	engine -34 139
+	engine -16.5 134
+	engine 16 134.5
+	engine 33.5 141.5
+
+	gun -48.5 -54 "Meteor Missile Launcher"
+	gun 46 -54 "Meteor Missile Launcher"
+	gun -107.5 29.5 "Meteor Missile Launcher"
+	gun 107.5 29 "Meteor Missile Launcher"
+
+	turret -31.5 -48.5 "Quad Blaster Turret"
+	turret 30 -49 "Quad Blaster Turret"
+	turret -91 34 "Heavy Anti-Missile Turret"
+	turret -50.5 35 "Blaster Turret"
+	turret 50.5 35 "Blaster Turret"
+	turret 91 35 "Heavy Anti-Missile Turret"
+	turret -22.5 68.5 "Quad Blaster Turret"
+	turret 22 68.5 "Quad Blaster Turret"
+
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	
+	description "The Colossus was designed to answer the need for safe transport of vast amounts of cargo over long distances without an escort fleet. The Colossus has enough durability and weaponry to endue a prolonged battle with a hostile fleet and arrive at it's destination intact."
+	description "It is easy to mistake the Colossus for it's smaller cousin at a distance, and only veteran freighter captains or wealthy companies can afford to deploy these gargantuan vessels; but their reliability and competence is unmatched and necessary on the fringes of republic space."
