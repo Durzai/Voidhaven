@@ -2,13 +2,15 @@ planet "Smuggler's Den"
 	add shipyard "Voidhaven Ships"
 planet "Buccaneer Bay"
 	add shipyard "Voidhaven Ships"
-planet Greenrock
+planet "Greenrock"
 	add shipyard "Voidhaven Ships"
-planet Haven
+planet "Haven"
 	add shipyard "Voidhaven Ships"
-planet Stormhold
+planet "Stormhold"
 	add shipyard "Voidhaven Ships"
 planet "New Tortuga"
 	add shipyard "Voidhaven Ships"
-planet Mordente-Bridi
+planet "Mordente-Bridi"
+	add shipyard "Voidhaven Ships"
+planet "Freedom"
 	add shipyard "Voidhaven Ships"
