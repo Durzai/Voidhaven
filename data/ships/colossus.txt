@@ -14,8 +14,8 @@ ship "Colossus"
 		"heat dissipation" 0.39
 		"fuel capacity" 900
 		"cargo space" 735
-		"outfit space" 695
-		"weapon capacity" 295
+		"outfit space" 675
+		"weapon capacity" 275
 		"engine capacity" 145
 		weapon
 			"blast radius" 210
@@ -24,8 +24,8 @@ ship "Colossus"
 			"hit force" 3150
 	outfits
 		# Ammunition
-		"Meteor Missile Box" 4
-		"Meteor Missile" 180
+		"Meteor Missile Box" 6
+		"Meteor Missile" 210
 		# Engines
 		"Capybara Reverse Thruster" 2
 		"Impala Plasma Thruster"
@@ -41,29 +41,31 @@ ship "Colossus"
 		"D94-YV Shield Generator"
 		"Liquid Nitrogen Cooler"
 		"Scram Drive"
-		"Small Radar Jammer" 4
+		"Large Radar Jammer"
 		# Turrets
-		"Blaster Turret" 2
-		"Heavy Anti-Missile Turret" 2
-		"Quad Blaster Turret" 4
-	engine -34 139
-	engine -16.5 134
-	engine 16 134.5
-	engine 33.5 141.5
+		"Anti-Missile Turret" 4
+		"Modified Blaster Turret" 6
 
-	gun -48.5 -54 "Meteor Missile Launcher"
-	gun 46 -54 "Meteor Missile Launcher"
-	gun -107.5 29.5 "Meteor Missile Launcher"
-	gun 107.5 29 "Meteor Missile Launcher"
+	engine -42.5 112.5
+	engine -25.5 153.5
+	engine 26.5 153.5
+	engine 42.5 113
 
-	turret -31.5 -48.5 "Quad Blaster Turret"
-	turret 30 -49 "Quad Blaster Turret"
-	turret -91 34 "Heavy Anti-Missile Turret"
-	turret -50.5 35 "Blaster Turret"
-	turret 50.5 35 "Blaster Turret"
-	turret 91 35 "Heavy Anti-Missile Turret"
-	turret -22.5 68.5 "Quad Blaster Turret"
-	turret 22 68.5 "Quad Blaster Turret"
+	gun -10 -162.5 "Meteor Missile Launcher"
+	gun 10 -163 "Meteor Missile Launcher"
+	gun -19.5 -132.5 "Meteor Missile Launcher"
+	gun 20 -133 "Meteor Missile Launcher"
+
+	turret -33 -59 "Modified Blaster Turret"
+	turret 33 -58.5 "Modified Blaster Turret"
+	turret -96 23 "Anti-Missile Turret"
+	turret -50.5 24 "Modified Blaster Turret"
+	turret -17.5 14 "Modified Blaster Turret"
+	turret 18 14.5 "Modified Blaster Turret"
+	turret 51 24.5 "Modified Blaster Turret"
+	turret 96.5 23 "Anti-Missile Turret"
+	turret -14.5 84.5 "Anti-Missile Turret"
+	turret 15.5 84.5 "Anti-Missile Turret"
 
 	leak "leak" 30 50
 	leak "flame" 30 80
@@ -74,5 +76,5 @@ ship "Colossus"
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
 	
-	description "The Colossus was designed to answer the need for safe transport of vast amounts of cargo over long distances without an escort fleet. The Colossus has enough durability and weaponry to endue a prolonged battle with a hostile fleet and arrive at it's destination intact."
+	description "The Colossus was designed to answer the need for safe transport of vast amounts of cargo over long distances without an escort fleet. The Colossus has enough durability and weaponry to endure a prolonged battle with a hostile fleet and arrive at it's destination intact."
 	description "It is easy to mistake the Colossus for it's smaller cousin at a distance, and only veteran freighter captains or wealthy companies can afford to deploy these gargantuan vessels; but their reliability and competence is unmatched and necessary on the fringes of republic space."
