@@ -1,5 +1,5 @@
 ship "Star Titan"
-	sprite "ship/Star Titan"
+	sprite "ship/startitan"
 		delay 2
 	thumbnail "thumbnail/startitan-thumbnail"
 	attributes
