@@ -1,0 +1,61 @@
+ship "Forerunner"
+	sprite "ship/forerunner"
+	thumbnail "thumbnail/forerunner-thumbnail"
+	attributes
+		category "Light Freighter"
+		"cost" 2660000
+		"shields" 4100
+		"hull" 3600
+		"required crew" 5
+		"bunks" 13
+		"mass" 650
+		"drag" 8.6
+		"heat dissipation" .57
+		"fuel capacity" 600
+		"cargo space" 140
+		"outfit space" 340
+		"weapon capacity" 95
+		"engine capacity" 105
+		weapon
+			"blast radius" 77
+			"shield damage" 770
+			"hull damage" 385
+			"hit force" 1155
+	outfits
+		# Ammunition
+
+		# Engines
+		"Capybara Reverse Thruster" 2
+		"Impala Plasma Thruster"
+		"Impala Plasma Steering"
+		# Guns
+
+		# Power
+		"S3 Thermionic"
+		"LP072a Battery Pack"
+		# Secondary Weapons
+
+		# Systems
+		"D41-HY Shield Generator"
+		"Scram Drive"
+		"Small Radar Jammer" 2
+		# Turrets
+		"Heavy Anti-Missile Turret"
+		"Quad Blaster Turret"
+
+	engine -12 117.5
+	engine 12 117.5
+
+	turret 1 29.5 "Heavy Anti-Missile Turret"
+	turret 1 -29.5 "Quad Blaster Turret"
+
+	leak "leak" 60 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 20
+	explode "small explosion" 35
+	explode "medium explosion" 20
+	explode "large explosion" 5
+	"final explode" "final explosion medium"
+
+	description "The Forerunner is a lightly armed freighter with large engines, tough armor; and a robust shield matrix. This purpose built blockade runner has become popular amongst captains on the fringes for it's capability to defend itself against interceptors and light warships, and to outrun anything bigger."
