@@ -1,6 +1,5 @@
 ship "Warhawk"
 	sprite "ship/warhawk"
-		delay 2
 	thumbnail "thumbnail/warhawk-thumbnail"
 	attributes
 		category "Heavy Warship"

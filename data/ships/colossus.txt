@@ -1,6 +1,5 @@
 ship "Colossus"
 	sprite "ship/colossus"
-		delay 2
 	thumbnail "thumbnail/colossus-thumbnail"
 	attributes
 		category "Heavy Freighter"
