@@ -1,6 +1,5 @@
 ship "Star Titan"
 	sprite "ship/startitan"
-	thumbnail "thumbnail/startitan-thumbnail"
 	attributes
 		category "Space Liner"
 		"cost" 7350000
@@ -11,11 +10,11 @@ ship "Star Titan"
 		"mass" 975
 		"drag" 12.9
 		"heat dissipation" .41
-		"fuel capacity" 900
+		"fuel capacity" 600
 		"cargo space" 105
-		"outfit space" 590
-		"weapon capacity" 175
-		"engine capacity" 175
+		"outfit space" 480
+		"weapon capacity" 125
+		"engine capacity" 135
 		weapon
 			"blast radius" 101
 			"shield damage" 1110
@@ -23,50 +22,46 @@ ship "Star Titan"
 			"hit force" 1665
 	outfits
 		# Ammunition
-		"Meteor Missile" 90
-		"Meteor Missile Box" 2
+		"Meteor Missile" 120
+		"Meteor Missile Box" 4
 		# Engines
 		"Capybara Reverse Thruster" 2
 		"Orca Plasma Steering"
-		"Orca Plasma Thruster"
+		"Impala Plasma Thruster"
 		# Guns
-		"Plasma Cannon"
+
 		# Power
-		"Fission Reactor"
+		"S3 Thermionic"
 		"LP144a Battery Pack"
 		# Secondary Weapons
 		"Meteor Missile Launcher" 2
 		# Systems
 		"Brig"
-		"D94-YV Shield Generator"
-		"Liquid Nitrogen Cooler"
+		"D67-TM Shield Generator"
+		"Luxury Accommodations"
 		"Scram Drive"
-		"Small Radar Jammer" 4
+		"Large Radar Jammer"
 		# Turrets
-		"Heavy Anti-Missile Turret"
-		"Quad Blaster Turret" 2
-	"steering engine" -34 41
+		"Anti-Missile Turret" 2
+		"Quad Blaster Turret"
+		
+	engine -18.5 126.5
+	engine 18.5 126.5
+	engine -42.5 132.5
 		zoom 0.5
-		left
-		angle 0
-	"steering engine" 34 41
+	engine 42.5 132.5
 		zoom 0.5
-		right
-		angle 0
-	engine -17.5 161.5
-	engine 17.5 161.5
 
-	gun -1.5 -158.5 "Plasma Cannon"
-	gun -25.5 -122.5 "Meteor Missile Launcher"
-	gun 22.5 -122.5 "Meteor Missile Launcher"
+	gun -24 -97 "Meteor Missile Launcher"
+	gun 24 -97 "Meteor Missile Launcher"
 
-	turret -1.5 66 "Heavy Anti-Missile Turret"
-	turret -22.5 -46 "Quad Blaster Turret"
-	turret 19.5 -46 "Quad Blaster Turret"
+	turret -20.5 -20.5 "Anti-Missile Turret"
+	turret 20.5 -20.5 "Anti-Missile Turret"
+	turret 0 -10.5 "Quad Blaster Turret"
 
-	bay "Drone" -35 3.5
+	bay "Drone" -43 92.5
 		"launch effect" "human internal"
-	bay "Drone" 31.5 3.5
+	bay "Drone" 43 92.5
 		"launch effect" "human internal"
 
 	explode "tiny explosion" 10
@@ -75,5 +70,5 @@ ship "Star Titan"
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
 
-	description "The Voidhaven Shipyards Star Titan was born of humanity's venerable star liners, unfortunate ships captured by pirates; left derelict by battle or bad luck. Voidhaven has breathed new life into this dying breed of starships, hybridizing the vast number of scrapped star liner hulls and selling a true titan of modern star liner industry, outclassed only by the jealously guarded city-ships of The Deep."
-	description "The Star Titan engineers have been praised for their innovative restructuring of the forward engine nacelles, hollowing a majority of the space out for two drone bays; and keeping just enough internal space for a set of small maneuvering thrusters to aid in the smooth turning of the elongated hull.
+	description "The Star Titan was born of the need to transport large numbers of people across the dangerous fringes of space safely and reliably, created from the countless scrapped hulls of humanity's venerable star liners; this rugged design has proven well suited for the dangerous times that necessitated it's creation."
+	description "The Star Titan's engineers have been praised for their innovative use of the outer nacelles, managing to fit a small engine module and drone bay into each pod; this design has become popular amongst fringe captains, and it's versatility has proven itself time and again."
