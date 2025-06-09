@@ -1,6 +1,5 @@
 ship "Colossus"
 	sprite "ship/colossus"
-	thumbnail "thumbnail/colossus-thumbnail"
 	attributes
 		category "Heavy Freighter"
 		"cost" 16200000

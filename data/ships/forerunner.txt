@@ -1,6 +1,5 @@
 ship "Forerunner"
 	sprite "ship/forerunner"
-	thumbnail "thumbnail/forerunner-thumbnail"
 	attributes
 		category "Light Freighter"
 		"cost" 2660000
