@@ -1,6 +1,6 @@
 name "Voidhaven"
 about "Voidhaven Shipyards is an independant enterprise operating on the fringes of human space focused on the transformation of existing ship designs into new forms; producing a line of modernized vessels capable of facing the dangers of the void."
-version "1.0.5"
+version "1.0.6"
 authors 
 	"Durzai"
 tags
