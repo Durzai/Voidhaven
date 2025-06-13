@@ -1,0 +1,72 @@
+ship "Shade"
+	sprite "ship/shade"
+	attributes
+		category "Medium Warship"
+		"cost" 8125000
+		"shields" 5500
+		"hull" 3500
+		"required crew" 13
+		"bunks" 27
+		"mass" 753
+		"drag" 11.7
+		"heat dissipation" .41
+		"fuel capacity" 600
+		"cargo space" 40
+		"outfit space" 405
+		"weapon capacity" 125
+		"engine capacity" 105
+		weapon
+			"blast radius" 145
+			"shield damage" 1450
+			"hull damage" 725
+			"hit force" 2175
+		"cargo scan power" 90
+		"cargo scan efficiency" 50
+		"outfit scan power" 250
+		"outfit scan efficiency" 150
+		"asteroid scan power" 400
+		"tactical scan power" 320
+		"atmosphere scan" 100
+		"radar jamming" 50
+		"optical jamming" 50
+	outfits
+		# Ammunition
+
+		# Engines
+		"Capybara Reverse Thruster"
+		"Impala Plasma Steering"
+		"Impala Plasma Thruster"
+		# Guns
+
+		# Power
+		"Fission Reactor"
+		"LP072a Battery Pack"
+		# Secondary Weapons
+
+		# Systems
+		"D67-TM Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Scram Drive"
+		# Turrets
+		"Modified Blaster Turret" 4
+		"Anti-Missile Turret" 2
+		
+	engine -11.0 112.0
+	engine 11.0 112.0
+	engine -32.5 126.0
+	engine 32.5 126.0
+
+	turret -12.5 11.0 "Modified Blaster Turret"
+	turret 12.5 11.0 "Modified Blaster Turret"
+	turret -12.5 33.0 "Modified Blaster Turret"
+	turret 12.5 33.0 "Modified Blaster Turret"
+	turret -11.5 65.0 "Anti-Missile Turret"
+	turret 11.5 65.0 "Anti-Missile Turret"
+
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+
+	description "The Shade is a purpose built support warship, it's powerful long-range tactical surveillance and interference suites make it a valuable asset to any fleet; and while it's armament capabilities are light for a ship of it's tonnage, it more than makes up for it in it's defensive capabilities and vast sensor utility."
